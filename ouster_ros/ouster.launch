@@ -2,7 +2,7 @@
 <!DOCTYPE xml>
 <launch>
 
-  <arg name="sensor_hostname" default="os-122104000126" doc="hostname or IP in dotted decimal form of the sensor"/>
+  <arg name="sensor_hostname" default="os-122104000126.local" doc="hostname or IP in dotted decimal form of the sensor"/>
   <arg name="udp_dest" default="169.254.173.13" doc="hostname or IP where the sensor will send data packets"/>
   <arg name="lidar_port" default="7502" doc="port to which the sensor should send lidar data"/>
   <arg name="imu_port" default="7503" doc="port to which the sensor should send imu data"/>
